@@ -18,14 +18,14 @@ let copy =(text)=>{
       }
 
     //   we want see password like * so function are..
-   // let  starlikePassword=(pass)=>{
-   // let str = "";
-   // for (let i = 0; i < pass.length; i++) {
+   let  starlikePassword=(pass)=>{
+   let str = "";
+   for (let i = 0; i < pass.length; i++) {
     
-   //  str+="*";
-   // }
-   // return str;
-   //  }
+    str+="*";
+   }
+   return str;
+    }
 let deletPassword=(website)=>{
     let data = localStorage.getItem("passwordstor")
     let arr = JSON.parse(data);
